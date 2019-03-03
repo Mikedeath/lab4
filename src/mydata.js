@@ -38,12 +38,6 @@ class MyData extends Component{
             return { name, parcial1, parcial2 };
           }
 
-         const rows = [
-            createData(this.state.clase1, this.state.notaP1C1, this.state.notaP2C1),
-            createData(this.state.clase2, this.state.notaP1C2, this.state.notaP2C2),
-            createData(this.state.clase3, this.state.notaP1C3, this.state.notaP2C3),
-          ];
-          
         return (
             <div>
           <Paper >
