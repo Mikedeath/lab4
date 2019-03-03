@@ -19,7 +19,7 @@ class MyData extends Component{
        
     }
 
-    SimpleTable= ()=> {
+    Table= ()=> {
 
         const styles = theme => ({
             root: {
