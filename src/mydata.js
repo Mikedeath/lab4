@@ -9,6 +9,7 @@ import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
+import Backdrop from '@material-ui/core/Backdrop';
 
 class MyData extends Component{
 
@@ -67,16 +68,16 @@ class MyData extends Component{
         return(
             <div>
                 <TextField   placeholder="Clase 1"> </TextField>    
-                <TextField  placeholder="Parcial 1 Nota"> </TextField> 
-                <TextField  placeholder="Parcial 2 Nota"> </TextField> 
+                <TextField  placeholder="Nota Parcial 1"> </TextField> 
+                <TextField  placeholder="Nota Parcial 2"> </TextField> 
                 <br/>
                 <TextField   placeholder="Clase 2"> </TextField>  
-                <TextField  placeholder="Parcial 1 Nota"> </TextField>       
-                <TextField  placeholder="Parcial 2 Nota"> </TextField> 
+                <TextField  placeholder="Nota Parcial 1"> </TextField>       
+                <TextField  placeholder="Nota Parcial 2"> </TextField> 
                 <br/>
                 <TextField   placeholder="Clase 3"> </TextField>    
-                <TextField  placeholder="Parcial 1 Nota"> </TextField> 
-                <TextField  placeholder="Parcial 2 Nota"> </TextField> 
+                <TextField  placeholder="Nota Parcial 1"> </TextField> 
+                <TextField  placeholder="Nota Parcial 2"> </TextField> 
                 <br/>
                 <br/>
                 <Button variant="contained" color="primary" onClick={ this.handleClick}>
