@@ -66,7 +66,7 @@ class MyData extends Component{
                 <br/>
 
                 <br/>
-                <Button variant="contained" color="primary" align="right" onClick={this.Clickomode}>
+                <Button variant="contained" color="primary" align="right" onClick={this.change_states}>
                 Continuar
                 </Button>
 
